@@ -30,7 +30,7 @@ export const Global = createGlobalStyle<IGlobalProps>`
   }
 
   body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,5 +38,6 @@ export const Global = createGlobalStyle<IGlobalProps>`
       120deg,
       var(${({ backgroundColor }) => backgroundColor})
     );
+    padding: 50px 0;
   }
 `;
