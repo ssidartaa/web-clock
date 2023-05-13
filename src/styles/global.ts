@@ -2,13 +2,13 @@ import { createGlobalStyle } from "styled-components";
 
 export const Global = createGlobalStyle<IGlobalProps>`
   :root {
-    --gradient-1: #204b57, #125e8a, #197bbd, #125e8a, #204b57;
-    --gradient-2: #3a4e48, #6a7b76, #8b9d83, #6a7b76, #3a4e48;
-    --gradient-3: #b30089, #f62dae, #fd96a9, #f62dae, #b30089;
-    --gradient-4: #3d3a4b, #937666, #b19994, #937666, #3d3a4b;
-    --gradient-5: #ffb7c3, #eec6ca, #ded6d1, #eec6ca, #ffb7c3;
-    --gradient-6: #59a96a, #9bdeac, #b4e7ce, #9bdeac, #59a96a;
-    --gradient-7: #242038, #725ac1, #8d86c9, #725ac1, #242038;
+    --theme-1: #204b57, #125e8a, #197bbd, #125e8a, #204b57;
+    --theme-2: #3a4e48, #6a7b76, #8b9d83, #6a7b76, #3a4e48;
+    --theme-3: #b30089, #f62dae, #fd96a9, #f62dae, #b30089;
+    --theme-4: #3d3a4b, #937666, #b19994, #937666, #3d3a4b;
+    --theme-5: #ffb7c3, #eec6ca, #ded6d1, #eec6ca, #ffb7c3;
+    --theme-6: #59a96a, #9bdeac, #b4e7ce, #9bdeac, #59a96a;
+    --theme-7: #242038, #725ac1, #8d86c9, #725ac1, #242038;
     --dark-mode: #333;
     --white-mode: #fff;
 
